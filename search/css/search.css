@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+/*Search Page */
+#searchPage{
+	font-size:100%;
+	margin:5px;
+}
+
+#searchPage .title{
+	font-weight:bold;
+	margin:0 0 5px 0;
+}
+
+#searchPage .descr{
+	font-style:italic;
+	margin:0 0 10px 0;
+}
+
+#searchPage .descr a:link, a:visited, a:hover{
+	text-decoration:none;
+}

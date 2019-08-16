@@ -1,0 +1,35 @@
+{include file='header.tpl'}
+<!-- Body starts -->
+		<div class="page_body page_grid">
+			<div class="section group">
+			
+			<!-- Add to calendar snipped -->
+			{include file='addtocalendar.tpl'}
+			<!-- End add to calendar snipped -->
+			
+				<div class="col span_9_of_12">
+					<div class="pageRow pageInner">
+						{$s_bannerTop}
+						{$s_pagePathWay}
+						<h1>{$s_pageTitle}</h1>
+						{eval assign='scriptPage' var=$s_pageContent|extractBetween:$s_pageLang}
+						{$scriptPage}
+						{if isset($smarty.get.view)}
+							{$s_bannerBottom}
+						{/if}
+						<div class="clearBoth"></div>
+					</div>
+				</div>
+				<div class="col span_3_of_12 page_sideCol">
+					<div class="pageRow">
+						{$s_pageSecondaryMenu}
+						{*$s_annonceLast*}
+						{$s_newsLast}
+						{$s_bannerRight}
+					</div>
+				</div>
+				<div class="clrBoth"></div>
+			</div>
+		</div>
+<!--  // End of body -->
+{include file='footer.tpl'}	

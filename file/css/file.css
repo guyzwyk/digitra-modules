@@ -1,0 +1,56 @@
+/* [Files to be downloaded layout & classes] */
+.file_element{	
+	font-size:100%;
+	margin:10px 5px;
+	border-bottom:#BCC0CF 1px solid;
+	
+}
+.file_element_title{
+	font-weight:bold;
+	font-family:Tahoma, "Trebuchet Ms", Arial, Verdana;
+	clear:left;
+}
+.file_element_content{
+	clear:left;
+	border-left:#BCC0CF 1px solid;
+	padding:5px 0px;
+}
+.file_element_content a{
+	border:none;
+}
+.file_element_content img{
+	float:left;
+	margin-right:5px;
+	border:none;
+}
+.file_element_content_descr{
+	font-style:italic;
+	font-size:90%;
+}
+.file_element_content_prop strong{
+	text-decoration:underline;
+	color:#000033;
+}
+	.file_element_content_prop ul li{
+		display:inline;
+		margin-right:10px;
+	}
+	
+.file_element_link{	
+	padding:2px 5px;
+	background-color:#BCC0CF;
+}
+.file_element_link a{
+	font-weight:bold;
+	text-decoration:none;
+}
+ul.fileLast{
+	margin-left:0;
+	padding-left:0;
+	text-indent:0;
+}
+
+ul.fileLast li{ 
+	list-style-type:none;
+}
+

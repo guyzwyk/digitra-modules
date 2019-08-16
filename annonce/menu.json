@@ -1,0 +1,22 @@
+{
+    "fr":
+    [
+        {
+            "create"    :   "Ajouter une annonce",
+            "read"      :   "Afficher les annonces",
+            "update"    :   "Update ",
+            "delete"    :   "1"
+            
+        }
+    ],
+    "en":
+    [
+        {
+            "create"    :   "Create notice",
+            "read"      :   "Display notice",
+            "update"    :   "Update ",
+            "delete"    :   "1"
+            
+        }
+    ]
+}

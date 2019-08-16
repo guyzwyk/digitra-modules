@@ -1,0 +1,89 @@
+/* [Mod Contact layout & classes] */
+
+/*Configuration generale pour la page contact*/
+/*For homepage (2 columns)*/
+@import	"../../../scripts/cssfiles/imports/palette.scss";
+@import	"../../../scripts/cssfiles/imports/vars.scss";
+@import	"../../../scripts/cssfiles/imports/mixins.scss";
+
+table.form-contact{
+	width:98%;
+	border:0;
+	padding:1%;
+	tbody{
+		tr{
+			border:0;
+			padding: 5px 0;
+			th{
+				border:0;
+				background-color:transparent;
+				text-transform:none;
+				text-align:right;
+				color:$color1;
+			}
+			td{
+				border:0;
+			}
+						
+		}
+			
+	}
+}	
+
+.fieldset{
+	border: $color1 1px solid;
+	margin:	10px;
+	padding: 10px 20px 0 10px;
+	legend{
+		padding:0 10px;
+		color : #2D9DDD;
+		font-weight: bold;
+	}
+}
+
+
+.frmLine{
+	margin-bottom:10px;
+	padding:5px;
+}
+
+.frmLabel{	
+	padding:0 0 0 10px;
+	span {
+		background-color: transparent;
+		text-align:right;
+		margin:0 5px 0 0;
+		padding:0;
+		height:0;
+		display:inline;
+	}
+	text-aligh: right;
+}
+
+textarea{
+	height:200px;	
+}
+select{
+	padding:5px;
+}
+
+.page_contact{
+	margin-right:10px;
+	border:#ccc 1px solid;	
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+	@include border-radius(10);
+}
+
+.page_contact_title{
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	font-size:1.39em;	
+	-moz-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;	
+	@include border-radius(10);
+	background-color:#559ec1
+}
+.page_contact_content{
+	padding:10px;
+}

@@ -1,0 +1,18 @@
+{
+    "admin":
+    [
+        {
+            "admin-icon"        :   "fa-bullhorn",
+            "admin-nb-items"    :   "1000",
+            "admin-banner"      :   "db_notice.jpg"
+        }
+    ],
+    "page":
+    [
+        {
+            "page-icon"         :   "fa-bullhorn",
+            "page-nb-items"     :   "100",
+            "page-banner"       :   "ban-notice.jpg"
+        }
+    ]
+}

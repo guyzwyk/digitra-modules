@@ -1,0 +1,134 @@
+@import	"../../../scripts/cssfiles/imports/palette.scss";
+@import	"../../../scripts/cssfiles/imports/vars.scss";
+@import	"../../../scripts/cssfiles/imports/mixins.scss";
+
+/* Classes for event */
+.monthly_event{
+	margin : 0px 20px 20px 20px;
+    font-size:100%;
+    .title{
+        font-weight:bold;
+        font-size:110%;
+        color: var(--lighter);
+        background-color:#84B528;
+        width:auto;
+        padding:10px;
+    }
+    .descr{
+        padding:10px;
+        border-left:#84B528 1px solid;
+        margin-left:5px;
+        line-height:15px;
+        p{
+		font-size:100%;
+        }
+        ul li{
+		font-size:100%;
+        }
+        ol li{
+			font-size:100%;
+	    }
+    }
+    .location{
+        padding-left:10px;
+        border-left:#84B528 1px solid;
+        margin-left:5px;
+    }
+    .start{
+        padding-left:10px;
+        border-left:#84B528 1px solid;
+        margin-left:5px;
+    }
+    .end{
+        padding-left:10px;
+        border-left:#84B528 1px solid;
+        margin-left:5px;
+    }
+    .url{
+        padding-left:10px;
+        border-left:#84B528 1px solid;
+        margin-left:5px;
+    }
+}
+
+.events{
+	margin:10px;
+	padding:15px 15px 15px 0;
+	background:url(../img/bg_events.gif) repeat-y;
+}
+
+.event_element{
+	padding : 0px 15px 5px 70px;
+	font-size : 100%;
+}
+.event_element_title{
+	font-size : 120%;
+	font-weight : bold;
+	color : #009966;
+}
+.event_element_date{
+	font-size : 120%;
+	font-weight : bold;
+	color:#fa2365;
+	padding-left:4px;
+}
+.event_element_descr{
+	font-style : italic;
+	padding:5px 0;
+}
+
+
+/* Top events */
+
+ul.top_event{
+	margin:0;
+    padding:10px;
+    li{
+        margin:0;
+        min-height:20px;
+        list-style-type:none;
+        background-color:transparent;
+    }
+}
+
+.event{
+    display:block;
+    margin-bottom: 5px;
+    height: 40px;
+    .event_date{
+        width:40px;
+        font-size:14px;
+        text-align:center;
+        display:block;
+        float:left;
+        margin:0 5px 0 0;
+    }
+    .event_day{
+        color:$color5;
+        background-color:$color2;
+        height:24px;
+        width:40px;
+        line-height:22px;
+        font-size:1.14em;
+        display:block;
+        text-align:center;
+    }
+    .event_month{
+        display:block;
+        width:40px;
+        color:$color5;
+        background-color:$color1;
+    }
+
+    .event_inner{
+        position:relative;
+    }
+    .event_title{
+        font-size:100%;
+        line-height:1.3em;
+        font-weight:bold;
+        margin:0 0 0 40px;
+        padding:0;
+        background:transparent;
+    }
+}

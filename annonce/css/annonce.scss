@@ -1,0 +1,101 @@
+@import	"../../../scripts/cssfiles/imports/palette.scss";
+@import	"../../../scripts/cssfiles/imports/vars.scss";
+@import	"../../../scripts/cssfiles/imports/mixins.scss";
+
+
+/*Recent notices*/
+ul.top_annonce{
+	margin:0;
+	padding:0;
+	text-indent:none;
+	li{
+		margin:0px;
+		padding:5px 5px 10px 10px;
+		text-indent:none;
+		font-weight:normal;
+		list-style-type:none;
+		a{
+			font-weight:normal;
+			span{				
+				background-color:transparent;
+				display:inline;
+				padding:0;
+				text-shadow:none;
+				font-weight: bold;
+				color: $color3;
+				.annonce_date{
+					font-weight: bold;
+					color: $color3;
+				}
+				
+			}
+		}
+	}
+}
+
+ul.annonce{
+	margin:0px;
+	padding:0px;
+	text-indent:0;
+	color:#2f4f5b;
+	width:100%;
+	li{
+		margin: 15px 10px;
+		padding: 10px;
+		list-style-type:none;	
+		background-color: $color4; //#708588;
+		&:hover{
+		background-color: $color5; //#b5d3d7;
+		transition: .4s;
+		}
+	}
+	
+}
+	
+	.annonce_title{
+		font-weight:bold;
+		font-size:160%;
+		color: $color2; //#3197b9;
+		line-height:1.4em;
+		margin:0 0 .5em 0;
+	}
+	.annonce_lib{
+		font-style:italic;
+		font-size:100%;
+	}
+	/*.annonce_date{
+		font-size:10px;
+		font-style:italic;
+		color:#FFF;
+	}*/
+	.annonce_cat{
+		font-weight:bold;
+	}
+
+
+
+/* Annonces paging */
+.annonce_pages{
+	float:left;
+	padding:4px;
+	margin:2px 0;
+	font-size:100%;
+}
+	.annonce_pages a{
+		font-weight:bold;
+		color:#000;
+		text-decoration:none;
+		margin:2px 0;
+		border:#003366 solid 1px;
+		padding:0px 4px;
+	}
+	.annonce_pages a:hover{
+		font-weight:bold;
+		color:#FFF;
+		text-decoration:none;
+		margin:2px 0;
+		background-color:#003366;
+		border:#003366 solid 1px;
+		padding:0px 4px;
+	}
+/***** End annonces paging *****/

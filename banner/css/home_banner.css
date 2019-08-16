@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+/* Banners at homepage */
+.banLeft {
+	text-align:center;
+}
+.banRight {
+	text-align:center;
+}
+.banHome {
+	margin:5px 0;
+}

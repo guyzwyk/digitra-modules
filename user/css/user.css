@@ -1,0 +1,76 @@
+/* MINDDEVEL Website's color palette : coolors.co/17252a-649E9C-ffb445-EAF5FF-feffff */
+/* Redefining the html tags */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #faf9f7;
+  --lighter: #fff;
+  --contrast: $color5;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --max: 100%;
+  --half: 50%;
+  --quarter: 25%;
+}
+
+/*@mixin border-radius($rTop:false, $rRight:false, $rBottom:false, $rLeft:false){
+  -webkit-border-radius: $rTop $rRight $rBottom $rLeft;
+  -moz-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -o-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -ms-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -khtml-border-radius:  $rTop $rRight $rBottom $rLeft;
+  border-radius:  $rTop $rRight $rBottom $rLeft;
+}*/
+/**************************************************** 
+				* From TownPress *
+*****************************************************/
+/**************************************************** 
+				* Customized mixins *
+*****************************************************/
+/*  Media queries */
+.frmLabel {
+  text-align: left;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.user_connect {
+  margin: 10px;
+  border: #ccc 1px solid;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.user_connect_title {
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.39em;
+  background-color: #559ec1;
+  padding: 0.5em 0;
+}
+.user_connect_title i {
+  margin-right: 10px;
+}
+
+.user_connect_content {
+  padding: 20px;
+}
+
+.frmLine {
+  position: relative;
+}
+.frmLine input[type="text"] {
+  padding-left: 40px;
+}
+.frmLine input[type="password"] {
+  padding-left: 40px;
+}
+.frmLine i {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: .5s;
+}
+
+/*# sourceMappingURL=user.css.map */

@@ -1,0 +1,161 @@
+/* MINDDEVEL Website's color palette : coolors.co/17252a-649E9C-ffb445-EAF5FF-feffff */
+/* Redefining the html tags */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #faf9f7;
+  --lighter: #fff;
+  --contrast: $color5;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --max: 100%;
+  --half: 50%;
+  --quarter: 25%;
+}
+
+/*@mixin border-radius($rTop:false, $rRight:false, $rBottom:false, $rLeft:false){
+  -webkit-border-radius: $rTop $rRight $rBottom $rLeft;
+  -moz-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -o-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -ms-border-radius:  $rTop $rRight $rBottom $rLeft;
+  -khtml-border-radius:  $rTop $rRight $rBottom $rLeft;
+  border-radius:  $rTop $rRight $rBottom $rLeft;
+}*/
+/**************************************************** 
+				* From TownPress *
+*****************************************************/
+/**************************************************** 
+				* Customized mixins *
+*****************************************************/
+/*  Media queries */
+/* Classes for event */
+.monthly_event {
+  margin: 0px 20px 20px 20px;
+  font-size: 100%;
+}
+.monthly_event .title {
+  font-weight: bold;
+  font-size: 110%;
+  color: var(--lighter);
+  background-color: #84B528;
+  width: auto;
+  padding: 10px;
+}
+.monthly_event .descr {
+  padding: 10px;
+  border-left: #84B528 1px solid;
+  margin-left: 5px;
+  line-height: 15px;
+}
+.monthly_event .descr p {
+  font-size: 100%;
+}
+.monthly_event .descr ul li {
+  font-size: 100%;
+}
+.monthly_event .descr ol li {
+  font-size: 100%;
+}
+.monthly_event .location {
+  padding-left: 10px;
+  border-left: #84B528 1px solid;
+  margin-left: 5px;
+}
+.monthly_event .start {
+  padding-left: 10px;
+  border-left: #84B528 1px solid;
+  margin-left: 5px;
+}
+.monthly_event .end {
+  padding-left: 10px;
+  border-left: #84B528 1px solid;
+  margin-left: 5px;
+}
+.monthly_event .url {
+  padding-left: 10px;
+  border-left: #84B528 1px solid;
+  margin-left: 5px;
+}
+
+.events {
+  margin: 10px;
+  padding: 15px 15px 15px 0;
+  background: url(../img/bg_events.gif) repeat-y;
+}
+
+.event_element {
+  padding: 0px 15px 5px 70px;
+  font-size: 100%;
+}
+
+.event_element_title {
+  font-size: 120%;
+  font-weight: bold;
+  color: #009966;
+}
+
+.event_element_date {
+  font-size: 120%;
+  font-weight: bold;
+  color: #fa2365;
+  padding-left: 4px;
+}
+
+.event_element_descr {
+  font-style: italic;
+  padding: 5px 0;
+}
+
+/* Top events */
+ul.top_event {
+  margin: 0;
+  padding: 10px;
+}
+ul.top_event li {
+  margin: 0;
+  min-height: 20px;
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.event {
+  display: block;
+  margin-bottom: 5px;
+  height: 40px;
+}
+.event .event_date {
+  width: 40px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin: 0 5px 0 0;
+}
+.event .event_day {
+  color: #feffff;
+  background-color: #327a77;
+  height: 24px;
+  width: 40px;
+  line-height: 22px;
+  font-size: 1.14em;
+  display: block;
+  text-align: center;
+}
+.event .event_month {
+  display: block;
+  width: 40px;
+  color: #feffff;
+  background-color: #17252a;
+}
+.event .event_inner {
+  position: relative;
+}
+.event .event_title {
+  font-size: 100%;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+  padding: 0;
+  background: transparent;
+}
+
+/*# sourceMappingURL=event.css.map */

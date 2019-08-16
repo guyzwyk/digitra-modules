@@ -1,0 +1,14 @@
+.dgt-calendar{
+    border: solid 1px #cccccc;
+    border-collapse: collapse;
+}
+
+.dgt-calendar tbody tr td{
+    padding: 5px;
+    border: solid 1px #cccccc;
+    border-collapse: collapse;
+}
+
+.dgt-calendar .cssTitle1{
+    font-weight: bold;
+}
